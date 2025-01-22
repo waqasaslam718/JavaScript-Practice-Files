@@ -1,17 +1,16 @@
-// we'll make worker.slow caching
 let worker = {
     someMethod() {
       return 1;
     },
   
     slow(x) {
-      // scary CPU-heavy task here
+     
       console.log("Called with " + x);
       return x * worker.someMethod(); // (*)
     }
   };
   
-  // same code as before
+ 
   function cachingDecorator(func) {
     let cache = new Map();
     return function(x) {

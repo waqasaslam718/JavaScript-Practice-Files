@@ -13,6 +13,7 @@ const getPromise =() =>{
     promise.catch((err) => {
         console.log("Promise Rejected",err);
     });
+    // comment
 // function getData(dataID, getNextData) {
 //     return new Promise((resolve, reject) => {
 //         setTimeout(() => {
