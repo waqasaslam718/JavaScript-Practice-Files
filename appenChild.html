@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="parent-div">
+  <p>Existing child element</p>
+</div>
+
+<script>
+// Create a new paragraph element
+let newElement = document.createElement("p");
+newElement.textContent = "I am a new child element";
+
+// Append it to the parent div
+let parent = document.getElementById("parent-div");
+parent.appendChild(newElement);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+*{
+    background-color: gray;
+    
+}
+#class{
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 3px 10px;
+    display: inline-block;
+    cursor: pointer;
+    
+
+}
